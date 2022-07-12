@@ -6,7 +6,7 @@ namespace Inventario
     {
         static void Main(string[] args)
         {
-            int opcion = 0;
+            string opcion = "";
 
             while (true)
             {
@@ -14,15 +14,15 @@ namespace Inventario
                 Console.WriteLine("Sistema de Inventario");
                 Console.WriteLine("*********************");
                 Console.WriteLine("");
-                Console.WriteLine("1 - Productos");
+                Console.WriteLine("1 - Productos!");
                 Console.WriteLine("2 - Ingreso de Inventario");
                 Console.WriteLine("3 - Salida de Inventario");
                 Console.WriteLine("0 - Salir");
-                opcion = Console.Read();
+                opcion = Console.ReadLine();
 
                 switch (opcion)
                 {
-                    case 1:
+                    case "1":
                     Console.WriteLine("Productos");
                     Console.Read();
                     break;
@@ -30,7 +30,7 @@ namespace Inventario
                     default:
                     break;
                 }
-                if (opcion == 0)
+                if (opcion == "0")
                 {
                     break;
                 }
