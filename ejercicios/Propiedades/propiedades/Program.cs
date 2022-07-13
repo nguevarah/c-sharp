@@ -6,11 +6,22 @@ namespace propiedades
     {
         static void Main(string[] args)
         {
-            Alumno a = new  Alumno();
-            a.Id = 1;
+            Alumno a = new Alumno();
             a.PrimerNombre = "Juan";
             a.SegundoNombre = "Perez";
-            Console.WriteLine("Hello World!");
+
+            Alumno b = new Alumno();
+            b.Id = 2;
+            b.PrimerNombre = "Maria";
+            b.SegundoNombre = "Lopez";
+
+            Alumno c = new Alumno(3);
+            c.PrimerNombre = "Pedro";
+            c.SegundoNombre = "Diaz";
+
+            Console.WriteLine(a.Id);
+            Console.WriteLine(b.Id);
+            Console.WriteLine(c.Id);
         }
     }
 }
