@@ -5,13 +5,19 @@ public class Alumno
     public string SegundoNombre { get; set; }
 
 
-public Alumno()
-{
-    Id = 1;
-}
+    public Alumno()
+    {
+        Id = 1;
+    }
 
-public Alumno(int id)
-{
-    Id = id;
-}
+    public Alumno(int id)
+    {
+        Id = id;
+    }
+    
+    public Alumno(string primerNombre string segundoNombre)
+    {
+        PrimerNombre = primerNombre;
+        SegundoNombre = segundoNombre;
+    }
 }
