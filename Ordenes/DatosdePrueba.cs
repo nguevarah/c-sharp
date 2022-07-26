@@ -35,13 +35,13 @@ public class DatosdePrueba
 
     private void cargarClientes()
     {
-        Cliente c1 = new Cliente(1, "Alexha", "9999-9999");
+        Cliente c1 = new Cliente(1, "Alex", "9999-9999");
         ListadeClientes.Add(c1);
 
-        Cliente c2 = new Cliente(2, "Betsy ", "3333-3333");
+        Cliente c2 = new Cliente(2, "Nely ", "3333-3333");
         ListadeClientes.Add(c2);
 
-        Cliente c3 = new Cliente(3, "Krist ", "8888-8888");
+        Cliente c3 = new Cliente(3, "Doris ", "8888-8888");
         ListadeClientes.Add(c3);
     }
 
